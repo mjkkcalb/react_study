@@ -1,0 +1,27 @@
+/*survey.module.css*/
+input {
+  outline: none;
+  width: 200px;
+  padding: 4px;
+  border: 1px solid #000;
+  margin-left: 10px;
+}
+.Wrapper {
+  width: 70%;
+  margin: 50px auto;
+  border: 1px solid #000;
+  padding: 4px 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Wrapper label {
+  margin-right: 10px;
+}
+.Wrapper button {
+  width: 100px;
+  padding: 6px 14px;
+  background-color: #000;
+  color: white;
+  border: none;
+  margin-right: 10px;
+}
