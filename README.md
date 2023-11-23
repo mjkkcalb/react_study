@@ -11,7 +11,7 @@
 - style값 적용
 
   - 스타일값 직접 적용 => ex) <li style={{color: 원하는 컬러}}>
-  - 스타일 변수로 적용  => ex) <li style={list}> , return 값 위쪽으로 const list = {color: 원하는 컬러};
-  - 스타일 외부 문서로 적용 => ex) <li classname = "list"> , import 값으로 외부 css 연결 및 css에 .list{color: 원하는 컬러}; 작성
+  - 스타일 변수로 적용  => ex) <li style={list}> return 값 위쪽으로 const list = {color: 원하는 컬러};
+  - 스타일 외부 문서로 적용 => ex) <li classname = "list"> import 값으로 외부 css 연결 및 css에 .list{color: 원하는 컬러}; 작성
   - 스타일 프레임 위크 적용
 
