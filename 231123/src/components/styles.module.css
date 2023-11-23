@@ -1,0 +1,11 @@
+body* {
+  box-sizing: border-box;
+}
+.swiperCom {
+  --swiper-theme-color: tomato;
+}
+
+.swiperCom img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
