@@ -1,0 +1,14 @@
+.slide {
+  height: 50vh;
+  --swiper-theme-color: red;
+}
+.slide .slideItem img {
+  border-radius: 30px;
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+.slide .slideItem p {
+  line-height: 2.5;
+  font-weight: bold;
+}

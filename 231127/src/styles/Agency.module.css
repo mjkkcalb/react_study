@@ -1,0 +1,30 @@
+.imgGroup {
+  border-radius: 20px;
+  background-image: linear-gradient(gold, orange);
+  height: 65vw;
+  position: relative;
+}
+.imgGroup img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75%;
+  transition: 0.5s;
+}
+.imgGroup .img1 {
+  top: -10px;
+}
+.imgGroup .img2 {
+  top: -20px;
+}
+.imgGroup .img3 {
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.imgGroup + h3 {
+  line-height: 1.5;
+  font-weight: 500;
+  width: 80%;
+  margin: 100px auto;
+}

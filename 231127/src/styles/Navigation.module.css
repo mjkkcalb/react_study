@@ -1,0 +1,33 @@
+.globalMenu {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  transition: 0.4s;
+  font-size: 2rem;
+  max-width: 360px;
+  min-width: 300px;
+  height: 500px;
+  position: fixed;
+  top: 10px;
+  right: -500px;
+  line-height: 2;
+  padding-top: 100px;
+}
+.globalMenu.active {
+  right: 10px;
+}
+.mobileBtn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+.mobileBtn svg {
+  width: 2rem;
+  height: 2rem;
+  fill: #000;
+  transition: 0.5s;
+}
+.globalMenu.active + .mobileBtn svg {
+  fill: white;
+}

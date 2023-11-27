@@ -1,0 +1,15 @@
+@import url(./styles/minireset.min.css);
+/* font-family: 'Anton', sans-serif; font-family: 'Roboto', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;500&display=swap");
+
+body {
+  font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont, Arial,
+    Helvetica, sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.center {
+  width: 90vw;
+  margin: 50px auto;
+}

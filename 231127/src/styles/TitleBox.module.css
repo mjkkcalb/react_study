@@ -1,0 +1,10 @@
+.titleWrapper {
+  text-align: left;
+  margin-top: 150px;
+}
+.titleWrapper .title {
+  font-size: 4.5rem;
+  font-family: "Anton", sans-serif;
+  line-height: 1.3;
+  letter-spacing: 2px;
+}
