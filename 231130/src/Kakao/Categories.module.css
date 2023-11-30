@@ -1,0 +1,11 @@
+.categoriesWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90vw;
+  height: 20px auto;
+  margin: 0 auto;
+}
+.active {
+  color: orange;
+  border-bottom: 2px solid orange;
+}
