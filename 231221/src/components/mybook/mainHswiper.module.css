@@ -1,0 +1,93 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid;
+  border-radius: 25px;
+  margin-left: 50px;
+  /* Center slide text vertically */
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.mySwiper {
+  position: relative;
+  top: 244px;
+  margin: 0 -25px;
+  overflow: unset;
+}
+
+.bookCounter > p {
+  position: relative;
+  top: 222px;
+  text-align: left;
+}
+.bookCounter {
+  position: relative;
+  top: 100px;
+  z-index: 1;
+}
+
+.swiper {
+  margin-left: 10px;
+  width: 50px;
+  height: 70px;
+  border-radius: 10px;
+  position: relative;
+  top: 10px;
+}
+.flex {
+  display: flex;
+  width: 200px;
+  height: 90px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 27px;
+}
+
+.textBox {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 9px;
+}
+.maintext {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+.subtext {
+  margin-top: 10px;
+  font-size: 10px;
+}
+
+.textBox strong {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.addBtn {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 40px;
+}
+.addBox {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+.myButton {
+  position: relative;
+  top: 10px;
+}

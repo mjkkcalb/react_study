@@ -1,0 +1,91 @@
+.mainH {
+  position: relative;
+  padding: 0 25px;
+  height: 844px;
+  overflow: hidden;
+}
+.imgBox {
+  position: relative;
+  z-index: -1;
+}
+.aniBoxContainer {
+  margin: 0 -25px;
+}
+.aniBox {
+  position: relative;
+  animation: move 8s ease-in-out infinite reverse;
+  bottom: -490px;
+  right: -320px;
+}
+
+.aniBox img {
+  position: relative;
+  width: 300px;
+  animation: run 0.7s ease-in-out infinite reverse;
+}
+
+.mainImg {
+  position: absolute;
+  z-index: -1;
+  width: 115%;
+  top: 300px;
+  margin: 0 -25px;
+}
+.mainImg2 {
+  position: absolute;
+  z-index: -1;
+  width: 35%;
+  height: 70px;
+  top: 190px;
+  right: -40px;
+  animation: hover 3s ease-in-out infinite reverse;
+}
+.mainImg3 {
+  position: absolute;
+  z-index: -1;
+  width: 50%;
+  height: 90px;
+  top: 120px;
+  right: 100px;
+  animation: hover 3s ease-in-out infinite reverse;
+}
+
+@keyframes hover {
+  0% {
+    transform: translateY(0);
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateY(5px); 
+    /* transform: translateX(5px);  */
+  }
+
+  100% {
+    transform: translateY(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes run {
+  0% {
+    display: block;
+  }
+  50% {
+    content: url(../../../public/images/rundog2.png);
+  }
+  100% {
+    display: block;
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(-555px) translateY(-400px);
+  }
+
+  50% {
+    transform: translateX(-205px) translateY(-20px);
+    rotate: 10deg;
+  }
+}

@@ -1,0 +1,131 @@
+.searchLists::-webkit-scrollbar {
+  width: 0px; /* 스크롤바의 너비 조정 */
+}
+
+.searchLists {
+  position: absolute;
+  text-align: center;
+  width: 340px;
+  height: 844px;
+  margin-top: 160px;
+  overflow-y: auto;
+}
+.searchList {
+  position: relative;
+  top: 18px;
+  height: 100%;
+  background-color: #fff;
+  padding-bottom: 82px;
+}
+.searchLogo {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+.searchList p {
+  text-align: left;
+  margin: 0 auto;
+}
+.pBox p:nth-child(1) {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+.pBox p:nth-child(2) {
+  opacity: 0.5;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+.pBox p:nth-child(3) {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.searchList li {
+  width: 340px;
+  overflow: hidden;
+  height: 100%;
+}
+.imgBg {
+  z-index: 1;
+  position: absolute;
+  border-radius: 25px;
+  filter: grayscale(1);
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.searchList img {
+  position: relative;
+  z-index: 1;
+  top: 30px;
+  width: 100px;
+  height: 150px;
+  border-radius: 25px;
+  margin-bottom: 50px;
+}
+input.search {
+  border-radius: 10px;
+  border: none;
+  background: rgba(255, 255, 255, 0.7);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 36px;
+  font-size: 16px;
+  align-items: center;
+  text-indent: 30px;
+  outline: none;
+  font-weight: normal;
+}
+.forms {
+  display: flex;
+  position: relative;
+  width: 400px;
+  top: 103px;
+  left: -5px;
+}
+.forms button {
+  background-color: transparent;
+  border: none;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.forms button:nth-child(1) {
+  position: relative;
+  left: 30px;
+  scale: 0.8;
+}
+.forms button:last-child {
+  position: relative;
+  right: 30px;
+  scale: 0.8;
+}
+.noResults {
+  position: fixed;
+  z-index: 1;
+  margin: 0 -25px;
+  top: 0;
+}
+.noResults input {
+  background-color: #eeeeef;
+}
+.pointtop {
+  position: fixed;
+  z-index: 1;
+  margin: 0 -25px;
+  background-color: #fffca9;
+  top: 0;
+  width: 390px;
+  height: 150px;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.active {
+  border-bottom: 2px #fffca9;
+}
+
+.searchLogo {
+  margin: 60px 0 0 25px;
+  text-align: left;
+}

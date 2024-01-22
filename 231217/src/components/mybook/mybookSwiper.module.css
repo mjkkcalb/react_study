@@ -1,0 +1,18 @@
+/* 읽고 있는 책 save2 */
+.redingSwiper {
+  margin-top: 30px;
+}
+.redingItemBox {
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 150px;
+}
+.redingSwiperSlide > div > img {
+  width: 150px;
+  height: 90px;
+  border-radius: 10px 10px 0 0;
+}
+.redingTextBox {
+  width: 150px;
+  display: flex;
+}

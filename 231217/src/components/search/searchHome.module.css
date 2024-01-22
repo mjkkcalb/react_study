@@ -1,0 +1,73 @@
+.searchHome {
+  margin: 0 25px;
+  width: 390px;
+  height: 844px;
+}
+
+/* serachHome */
+.fail {
+  margin: 350px 70px;
+  width: 100%;
+}
+.fail2 {
+  margin: 350px 70px;
+  width: 100%;
+}
+.homeimg {
+  width: 200px;
+}
+li {
+  list-style: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.searchNav {
+  display: flex;
+  justify-content: left;
+  position: relative;
+  top: 150px;
+  left: -30px;
+  scale: 0.8;
+}
+.searchNav a {
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+}
+.pointCircle {
+  position: absolute;
+  left: 0;
+  right: 120px;
+  z-index: -1;
+  margin: 0 auto;
+  top: 400px;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  background-color: #fffca9;
+}
+.pointCircle2 {
+  position: absolute;
+  left: 0;
+  right: 120px;
+  z-index: -1;
+  margin: 0 auto;
+  top: 400px;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  background-color: red;
+}
+/* searchhome */
+.active {
+  border-bottom: 5px solid #fffca9;
+}

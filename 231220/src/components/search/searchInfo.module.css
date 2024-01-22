@@ -1,0 +1,117 @@
+.searchInfo2 {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  padding-top: 50px;
+  height: 794px;
+}
+.searchInfo1 {
+  margin: 0 25px;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+.btns button {
+  cursor: pointer;
+}
+.active {
+  background-color: #0000003c;
+  position: absolute;
+  top: 0px;
+  transition: background-color 0.5s ease;
+  width: 100%;
+  height: 100%;
+}
+.save {
+  border: none;
+  background-color: transparent;
+  font-size: 22px;
+}
+
+.searchInfo2 img {
+  width: 150px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.infos {
+  position: relative;
+  top: 20px;
+}
+.bookBg {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.bookBg img {
+  position: relative;
+  width: 290px;
+  height: 220px;
+  z-index: -1;
+}
+
+.infoT {
+  font-size: 12px;
+}
+.line {
+  position: absolute;
+  right: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+  color: #000;
+}
+.ttBox {
+  text-align: left;
+}
+
+.mainTxt {
+  font-size: 16px;
+  color: #222;
+  margin: 25px 0 0;
+}
+.mainTxt:first-child {
+  margin: 40px 0 0;
+}
+.subTxt {
+  font-size: 14px;
+  color: #7f7f7f;
+  margin-top: 7px;
+  margin-bottom: 0px;
+}
+.ttBox a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+}
+
+.flex {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  top: 95px;
+}
+.flex a {
+  font-size: 14px;
+  /* 포인트로 컬러 넣어도 좋을듯 */
+}
+.infoTxt {
+  position: relative;
+  font-size: 10px;
+  bottom: -5px;
+}
+
+.flex img {
+  right: 0;
+  transform: scaleX(-1);
+  position: absolute;
+  width: 62px;
+  height: 36px;
+  top: -32px;
+}

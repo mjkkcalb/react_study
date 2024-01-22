@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff; /* 배경색 설정 */
+  height: 844px;
+}
+.loloimg {
+  position: relative;
+  bottom: 60px;
+}
+.subtitle {
+  font-size: 1.2rem;
+  color: #000; /* 부제 색상 설정 */
+  position: absolute;
+  top: 160px;
+}
+
+.inputgroup {
+  width: 86%;
+  margin-bottom: 8px;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  position: relative;
+  top: 185px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.button1 {
+  width: 86%;
+  padding: 12px;
+  background-color: #ddd;
+  color: #000; /* 버튼 글자색 설정 */
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 20px;
+  position: relative;
+  top: 165px;
+}
+
+.kakaobtn {
+  background-color: #fee500;
+  border: none;
+  color: #000;
+  padding: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 26px;
+  font-weight: bold;
+  width: 335px;
+  position: relative;
+  top: 111px;
+}
+
+.hr {
+  width: 120px;
+  position: relative;
+  top: 195px;
+  right: 110px;
+}
+
+.hr1 {
+  width: 120px;
+  position: relative;
+  top: 120px;
+  left: 110px;
+}
+
+.hrp {
+  position: relative;
+  top: 158px;
+  color: #999999;
+}

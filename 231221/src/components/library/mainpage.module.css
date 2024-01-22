@@ -1,0 +1,148 @@
+/* mainpage.module.css */
+.library {
+  width: 390px;
+  height: 844px;
+}
+.footer {
+  margin: 0 25px;
+}
+.bg {
+  position: absolute;
+  border-radius: 10px 10px 0 0;
+  top: 95px;
+  height: 500px;
+  width: 390px;
+  z-index: 1;
+  background-color: #ffffff;
+  box-shadow: 0 -5px 5px -2px #c0c0c078;
+}
+.mySwiper {
+  width: 100%;
+}
+
+/* Add more styles as needed */
+
+/* Additional styles for head, libyimg, liby, peo */
+.head {
+  background-color: #fffca9;
+  height: 95px;
+  position: relative;
+}
+
+.libyimg {
+  position: relative;
+  top: 60px;
+  margin-left: 25px;
+}
+
+.liby {
+  position: relative;
+  margin-left: 25px;
+  top: 8px;
+  z-index: 3;
+}
+
+.liby h2 {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.liby p {
+  color: #838388;
+  font-size: 16px;
+  margin: 20px 0 0 0;
+}
+.liby p:last-child {
+  margin: 8px 0 15px;
+}
+.strong {
+  color: #6a8f7d;
+}
+.arrow {
+  margin: 0px;
+}
+
+.arrow > svg {
+  color: #6a8f7d;
+  width: 20px;
+  height: 20px;
+}
+.peo {
+  position: relative;
+  left: 254px;
+  bottom: 175px;
+  z-index: 2;
+}
+.swiper1,
+.swiper2,
+.swiper3 {
+  position: relative;
+  z-index: 1;
+  margin: 0 25px;
+  top: -210px;
+}
+
+.slideContent1 img {
+  width: 70px;
+  height: 90px;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #ddd;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  margin-left: 3px;
+  margin-bottom: 2px;
+}
+.stick1 {
+  position: relative;
+  width: 340px;
+  height: 12px;
+  background-color: #b9af8e;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+.slideContent2 img {
+  width: 70px;
+  height: 90px;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #ddd;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  margin-left: 3px;
+  margin-bottom: 2px;
+}
+.slideContent3 img {
+  width: 70px;
+  height: 90px;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #ddd;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  margin-left: 3px;
+  margin-bottom: 2px;
+}
+
+.swiper1 p,
+.swiper2 p,
+.swiper3 p {
+  font-size: 16px;
+  margin: 14px 0;
+}
+
+.swiper1 p > svg,
+.swiper2 p > svg,
+.swiper3 p > svg {
+  width: 14px;
+  height: 14px;
+}
+
+/* 로그아웃 버튼 */
+.Outbtn {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.Outbtn > P {
+  margin: 0;
+}
+.Outbtn > svg {
+  width: 16px;
+  height: 16px;
+}

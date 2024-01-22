@@ -1,0 +1,97 @@
+/* mainpage.module.css */
+.library {
+  width: 390px;
+  height: 844px;
+}
+.footer {
+  margin: 0 25px;
+}
+.bg {
+  position: absolute;
+  border-radius: 10px 10px 0 0;
+  top: 90px;
+  height: 500px;
+  width: 390px;
+  z-index: 1;
+  background-color: #ffffff;
+  box-shadow: 0 -5px 5px -2px #c0c0c078;
+}
+.mySwiper {
+  width: 100%;
+}
+
+/* Add more styles as needed */
+
+/* Additional styles for head, libyimg, liby, peo */
+.head {
+  background-color: #fffca9;
+  padding-bottom: 56px;
+  position: relative;
+}
+
+.libyimg {
+  position: relative;
+  top: 60px;
+  margin-left: 10px;
+}
+
+.liby {
+  position: relative;
+  margin-left: 25px;
+  top: 8px;
+  z-index: 3;
+}
+
+.liby h2 {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.liby p {
+  color: #838388;
+  font-size: 16px;
+}
+
+.peo {
+  position: relative;
+  left: 254px;
+  bottom: 170px;
+  z-index: 2;
+}
+.swiper1,
+.swiper2,
+.swiper3 {
+  position: relative;
+  z-index: 1;
+  margin: 0 25px;
+  top: -175px;
+}
+
+.slideContent1 img {
+  width: 70px;
+  height: 90px;
+  border-radius: 0 5px 5px 0;
+}
+.stick1 {
+  position: relative;
+  width: 340px;
+  height: 10px;
+  background-color: #96866d;
+  box-shadow: 0px 5px 5px #c0c0c036;
+}
+.slideContent2 img {
+  width: 70px;
+  height: 90px;
+  border-radius: 0 5px 5px 0;
+}
+.slideContent3 img {
+  width: 70px;
+  height: 90px;
+  border-radius: 0 5px 5px 0;
+}
+
+.swiper1 p,
+.swiper2 p,
+.swiper3 p {
+  font-size: 16px;
+}

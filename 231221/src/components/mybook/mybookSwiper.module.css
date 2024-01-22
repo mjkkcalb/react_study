@@ -1,0 +1,170 @@
+/* 읽고 있는 책 save2 */
+.redingSwiper {
+  margin-top: 35px;
+}
+.redingItemBox {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.redingAddBook {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 5px;
+  position: relative;
+}
+.redingAddBook > a {
+  text-decoration: none;
+  font-size: 60px;
+  margin-left: 15px;
+}
+.redingAddBook > a > p {
+  color: #000;
+  font-size: 60px;
+  position: absolute;
+  top: -75px;
+  left: 10px;
+}
+.redingAddBook > a > img {
+  position: absolute;
+  bottom: 0px;
+  right: -1px;
+  width: 125px;
+}
+.redingSwiperSlide > div > img {
+  width: 150px;
+  height: 91px;
+  border-radius: 9px 9px 0 0;
+}
+.redingTextBox {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5px;
+}
+.redingTextTitle {
+  margin: 0;
+  font-size: 14px;
+  text-align: left;
+}
+.redingTextAuthor {
+  margin: 0;
+  font-size: 12px;
+  text-align: left;
+}
+.redingTextPage {
+  margin: 3px 0;
+  font-size: 10px;
+  text-align: left;
+}
+.redingTextBtn {
+  text-decoration: none;
+  color: #fff;
+  background-color: #6c9480;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+}
+.redingTextBtn > svg {
+  width: 14px;
+  height: 14px;
+  padding-bottom: 0.3px;
+}
+
+/*  읽고 싶은 책 save3 */
+.readHopeSwiper {
+}
+.readHopeSwiper > h1 {
+  margin: 0;
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+.readHopeSwiperSlide {
+  width: 4px;
+  height: 55px;
+  margin-left: 10px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  margin-top: 25px;
+}
+.readHopeSwiperSlide a > img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+.readHopeAddBook {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  text-align: center;
+  align-items: center;
+  line-height: 45px;
+  margin-top: 25px;
+}
+.readHopeAddBook > a {
+  text-decoration: none;
+  color: #000;
+  font-size: 28px;
+}
+
+/* 읽은 책 save3 */
+.readSwiper {
+}
+.readSwiper > h1 {
+  font-size: 18px;
+  margin: 25px 0 25px 0;
+}
+.readSwiperSlide {
+}
+.readAddBook {
+  width: 60px;
+  height: 120px;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #eeeeee;
+  margin-left: 3px;
+  text-align: center;
+  position: relative;
+}
+.readAddBook > a {
+  text-decoration: none;
+}
+.readAddBook > a > p {
+  color: #222;
+  font-size: 45px;
+  position: absolute;
+  top: -50px;
+  right: 10px;
+}
+.readAddBook > a > img {
+  position: absolute;
+  width: 90px;
+  left: 0;
+  bottom: -10px;
+}
+.readSwiperSlide {
+}
+.readSwiperSlide > a > img {
+  width: 90px;
+  height: 120px;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #eee;
+}

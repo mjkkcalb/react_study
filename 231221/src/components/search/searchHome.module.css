@@ -1,0 +1,85 @@
+.searchHome {
+  position: relative;
+  margin: 0 25px;
+  width: 340px;
+  height: 844px;
+  overflow: hidden;
+}
+
+.searchLogo {
+  margin: 60px 0 0;
+}
+
+/* serachHome */
+.fail {
+  margin: 350px 70px;
+  width: 100%;
+}
+.fail2 {
+  margin: 350px 70px;
+  width: 100%;
+}
+.homeimg {
+  width: 200px;
+}
+li {
+  list-style: none;
+}
+
+.hidden {
+  display: none;
+}
+.searchListContainer {
+  overflow: hidden;
+  height: 100%;
+}
+.block {
+  display: block;
+}
+.hide {
+  display: none;
+}
+.searchNav {
+  display: flex;
+  justify-content: left;
+  position: relative;
+  top: 160px;
+  left: -33px;
+  scale: 0.8;
+  z-index: 3;
+}
+.searchNav a {
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+}
+.pointCircle {
+  position: absolute;
+  left: 0;
+  right: 120px;
+  z-index: -1;
+  margin: 0 auto;
+  top: 335px;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: #fffca9;
+}
+.pointCircle2 {
+  position: absolute;
+  left: 0;
+  right: 120px;
+  z-index: -1;
+  margin: 0 auto;
+  top: 400px;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  background-color: red;
+}
+/* searchhome */
+.active {
+  border-bottom: 5px solid #fffca9;
+}

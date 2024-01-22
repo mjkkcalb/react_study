@@ -1,0 +1,93 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+body {
+  font-family: "Noto Sans KR", "Spoqa Han Sans JP", "Sans-serif";
+  width: 390px;
+  border: 1px solid;
+  margin: 0 auto;
+}
+
+.paddingline {
+  position: absolute;
+  width: 390px;
+  top: 54px;
+  margin: 0;
+  z-index: 1;
+}
+.paddingline1 {
+  position: absolute;
+  width: 390px;
+  top: 94px;
+  margin: 0;
+  z-index: 1;
+}
+.paddingline2 {
+  position: absolute;
+  width: 390px;
+  top: 146px;
+  margin: 0;
+  z-index: 1;
+}
+.paddingline3 {
+  position: absolute;
+  width: 390px;
+  bottom: 82px;
+  margin: 0;
+  z-index: 1;
+}
+.paddingsideline {
+  position: absolute;
+  left: 0;
+  margin-left: 169px;
+  rotate: 90deg;
+  width: 100%;
+  z-index: 1;
+}
+.paddingsideline1 {
+  position: absolute;
+  left: 0;
+  top: 500px;
+  margin-left: 169px;
+  rotate: 90deg;
+  width: 100%;
+  z-index: 1;
+}
+.paddingsideline11 {
+  position: absolute;
+  left: 0;
+  top: 800px;
+  margin-left: 169px;
+  rotate: 90deg;
+  width: 100%;
+  z-index: 1;
+}
+.paddingsideline22 {
+  position: absolute;
+  right: 0;
+  top: 500px;
+  margin-right: 169px;
+  rotate: 90deg;
+  width: 100%;
+  z-index: 1;
+}
+.paddingsideline222 {
+  position: absolute;
+  right: 0;
+  top: 800px;
+  margin-right: 169px;
+  rotate: 90deg;
+  width: 100%;
+  z-index: 1;
+}
+.paddingsideline2 {
+  position: absolute;
+  right: 0;
+  margin-right: 169px;
+  rotate: 90deg;
+  width: 100%;
+  z-index: 1;
+}
